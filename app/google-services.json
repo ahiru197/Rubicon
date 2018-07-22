@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "226925068255",
+    "firebase_url": "https://duck197-7a44a.firebaseio.com",
+    "project_id": "duck197-7a44a",
+    "storage_bucket": "duck197-7a44a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226925068255:android:5ac041860272bab1",
+        "android_client_info": {
+          "package_name": "com.ahiru.rubicon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226925068255-6hicmab9kn0nrmqjeiolo1g20j365u2g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ahiru.rubicon",
+            "certificate_hash": "936a03b78e85cfb0567a39d781b01442d45901aa"
+          }
+        },
+        {
+          "client_id": "226925068255-3vk3bn5qmbb9kpqv9sh168tut6s49ud7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkc_SpqXmUseogxN5-feVq7PvfQe6KJ6s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226925068255-3vk3bn5qmbb9kpqv9sh168tut6s49ud7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

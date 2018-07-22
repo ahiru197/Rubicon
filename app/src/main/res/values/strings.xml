@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Rubicon</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">選択肢リスト</string>
+    <string name="title_activity_editer">Editer</string>
+    <string name="title_activity_main_result">抽出結果</string>
+    <string name="back_to_top">トップに戻る</string>
+    <string name="back_to_choice">リストに戻る</string>
+    <string name="result">結果は・・・</string>
+    <string name="add_list">リストを追加</string>
+    <string name="again">もう一度</string>
+    <string name="no_item">No items found</string>
+    <string name="edit">入力してください</string>
+</resources>

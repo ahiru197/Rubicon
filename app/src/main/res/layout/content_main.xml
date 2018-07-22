@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_main"
+    android:layout_marginTop="55dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorMain">
+
+        <TextView
+            android:id="@+id/titletv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="26sp" />
+
+        <ImageButton
+            android:id="@+id/TitleEditButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/button_ripple"
+            android:onClick="titleEditButton"
+            app:srcCompat="@drawable/edit_white_18dp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/emptyTextView2"
+        android:text="@string/no_item"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="8"
+        android:textSize="20sp"
+        android:gravity="center"/>
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="8"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorMain"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_ripple"
+            android:onClick="toMainList"
+            app:srcCompat="@drawable/baseline_home_white_48dp"
+             />
+
+        <ImageButton
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_ripple"
+            android:onClick="toMainResult"
+            app:srcCompat="@drawable/icon1"
+            />
+
+        <ImageButton
+            android:id="@+id/inputButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_ripple"
+            android:onClick="toEditer"
+            app:srcCompat="@drawable/baseline_add_white_50px"
+             />
+
+    </LinearLayout>
+
+
+</LinearLayout>
